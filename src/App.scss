@@ -1,0 +1,46 @@
+.App {
+  //text-align: center;
+}
+
+header {
+	margin: auto;
+	width: 50%;
+}
+
+.add-entry-form {
+	width: 50%;
+	margin: auto;
+	padding: 10px;
+	background-color: lightgray;
+	margin-top: 10px;
+}
+
+.labeled-input {
+	//border: 1px solid blue;
+	text-align: right;
+	&-label {
+		//border:1px solid green;
+		display: inline-block;
+		text-align: right;
+		padding-right: 8px;
+	}
+
+	&-input {
+		//border: 1px solid purple;
+	}
+}
+
+.entry-list {
+	margin: auto;
+	margin-top: 30px;
+	width: 60%;
+	background-color: lightgray;
+	min-height: 300px;
+}
+
+.dictionary-entry {
+	background-color: white;
+	margin: 10px;
+	border: 1px solid black;
+	padding-left: 10px;
+}
